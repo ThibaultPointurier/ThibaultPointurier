@@ -26,20 +26,20 @@ I am a French developer specializing in different technology.
 <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">
 <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white">
 
-###IDE used :
+### IDE used :
 
 <img src="http://img.shields.io/badge/-PHPStorm-181717?style=for-the-badge&logo=phpstorm&logoColor=white">
 
-##My activity
+## My activity
 
 ![activity](https://github-readme-stats.vercel.app/api?username=AzarowDev&show_icons=true)
 
-##Follow me
+## Follow me
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/AzarowDev?color=%231DA1F2&label=Follow%20me&logo=Twitter&style=for-the-badge)](https://twitter.com/AzarowDev)
 [![Github Follow](https://img.shields.io/github/followers/AzarowDev?color=000000&label=My%20Github&logo=Github&style=for-the-badge)](https://github.com/LeadcodeDev)
 [![Discord Follow](https://img.shields.io/static/v1?label=Discord&message=AzarowDev%236386&color=7289DA&logo=Discord&style=for-the-badge)]()
 
-##Organisations :
+## Organisations :
 
-[![Hantaria.com](https://github.com/AzarowDev/AzarowDev/blop/main/logo.png](https://www.hantaria.com/)
+[![Hantaria.com](https://github.com/AzarowDev/AzarowDev/blob/main/logo.png)](https://www.hantaria.com/)
