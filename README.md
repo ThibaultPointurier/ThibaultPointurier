@@ -33,4 +33,4 @@ I am a French developer specializing in different technology.
 
 ## Organisations :
 
-[![Hantaria.com](https://github.com/AzarowDev/AzarowDev/blob/main/logo.png)](https://www.hantaria.com/)
+[![Hantaria.com](https://github.com/AzarowDev/AzarowDev/blob/main/logo.png)](https://github.com/Hantaria)
