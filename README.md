@@ -3,7 +3,7 @@
 ---
 
 I am a French developer specializing in different technology.
-🔥 My name is Thibault, I am 24 years old and currently a fullstack web developer for 4 years now as a freelance!
+🔥 My name is Thibault, I am 25 years old and currently a fullstack web developer for 4 years now as a freelance!
 
 
 ### Languages used :
