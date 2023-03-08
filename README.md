@@ -33,4 +33,6 @@ I am a French developer specializing in different technology.
 
 ## Organisations :
 
-[![Hantaria.com](https://github.com/AzarowDev/AzarowDev/blob/main/logo.png)](https://github.com/Hantaria)
+[![Nas-service.fr](https://github.com/AzarowDev/AzarowDev/blob/main/logo.png)](https://github.com/nas-service)
+[![Notybot.org](https://github.com/ThibaultPointurier/ThibaultPointurier/blob/main/notybot.png)](https://github.com/notybot)
+
