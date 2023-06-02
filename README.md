@@ -25,7 +25,7 @@ I am a French developer specializing in different technology.
 
 ## My activity
 
-![activity](https://github-readme-stats.vercel.app/api?username=AzarowDev&show_icons=true)
+![activity](https://github-readme-stats.vercel.app/api?username=ThibaultPointurier&show_icons=true)
 
 ## Follow me
 
