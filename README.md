@@ -1,38 +1,55 @@
-# Hi there 👋
+# 👋 Hi, I'm Thibault
 
 ---
 
-I am a French developer specializing in different technology.
-🔥 My name is Thibault, I am 25 years old and currently a fullstack web developer for 4 years now as a freelance!
+## About Me
 
+I'm a 28-year-old French fullstack web developer with 7 years of freelance experience. Passionate about technology, I love tackling new challenges, learning modern frameworks, and contributing to innovative projects.
 
-### Languages used :
+---
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"> <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
+## 🛠️ Skills
 
+### Languages
 
-### Frameworks used :
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 
-<img src="https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=Symfony&logoColor=white"> <img src="https://img.shields.io/static/v1?style=for-the-badge&message=AdonisJS&color=220052&logo=AdonisJS&logoColor=FFFFFF&label="> <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D"> <img src="https://img.shields.io/badge/nuxt.js-00C58E?style=for-the-badge&logo=nuxtdotjs&logoColor=white">
+### Frameworks
 
-### Databases used : 
+![AdonisJS](https://img.shields.io/static/v1?style=for-the-badge&message=AdonisJS&color=220052&logo=AdonisJS&logoColor=FFFFFF&label=)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![Nuxt.js](https://img.shields.io/badge/nuxt.js-00C58E?style=for-the-badge&logo=nuxtdotjs&logoColor=white)
 
-<img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white">
+### Databases
 
-### IDE used :
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 
-<img src="http://img.shields.io/badge/-PHPStorm-181717?style=for-the-badge&logo=phpstorm&logoColor=white">
+### IDE
 
-## My activity
+![PHPSTORM](https://img.shields.io/badge/-PHPStorm-181717?style=for-the-badge&logo=phpstorm&logoColor=white)
+
+## 📈 My GitHub Activity
 
 ![activity](https://github-readme-stats.vercel.app/api?username=ThibaultPointurier&show_icons=true)
 
-## Follow me
+---
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/AzarowDev?color=%231DA1F2&label=Follow%20me&logo=Twitter&style=for-the-badge)](https://twitter.com/AzarowDev) [![Github Follow](https://img.shields.io/github/followers/AzarowDev?color=000000&label=My%20Github&logo=Github&style=for-the-badge)](https://github.com/LeadcodeDev) [![Discord Follow](https://img.shields.io/static/v1?label=Discord&message=AzarowDev%236386&color=7289DA&logo=Discord&style=for-the-badge)]()
+## 🌐 Follow Me
 
-## Organisations :
+[![Twitter Follow](https://img.shields.io/twitter/follow/thibault_offi?color=%231DA1F2&label=Follow%20me&logo=x&style=for-the-badge)](https://x.com/thibault_offi) 
+[![Github Follow](https://img.shields.io/github/followers/ThibaultPointurier?color=000000&label=My%20Github&logo=Github&style=for-the-badge)](https://github.com/ThibaultPointurier/)
+![Discord Follow](https://img.shields.io/static/v1?label=Discord&message=Thibault_p&color=7289DA&logo=Discord&style=for-the-badge)
 
-[![Nas-service.fr](https://github.com/AzarowDev/AzarowDev/blob/main/logo.png)](https://github.com/nas-service)
+---
+
+## 🏢 Organizations
+
+[![Nas-service.fr](https://github.com/ThibaultPointurier/ThibaultPointurier/blob/main/logo.png)](https://github.com/nas-service)
 [![Notybot.org](https://github.com/ThibaultPointurier/ThibaultPointurier/blob/main/notybot.png)](https://github.com/notybot)
-
