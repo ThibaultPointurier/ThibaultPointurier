@@ -1,0 +1,64 @@
+# Stack observabilité / journaux centralisés pour Dokploy (https://dokploy.com).
+# Déploiement : créer une application « Docker Compose » pointant vers ce fichier,
+# renseigner les variables dans l’onglet Environment (voir .env.example).
+#
+# Exposition HTTPS : onglet Domains → ajouter un domaine par service exposé
+# (Grafana, Loki si besoin d’API externe). Dokploy injecte Traefik automatiquement.
+#
+# Réseau : sans déploiement isolé, attachez tous les services à dokploy-network
+# pour qu’ils se voient entre eux et pour le routage Traefik.
+
+services:
+  loki:
+    image: grafana/loki:2.9.4
+    command: -config.file=/etc/loki/local-config.yaml
+    restart: unless-stopped
+    expose:
+      - "3100"
+    volumes:
+      - loki_data:/loki
+    networks:
+      - dokploy-network
+
+  promtail:
+    image: grafana/promtail:2.9.4
+    user: root
+    restart: unless-stopped
+    depends_on:
+      - loki
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - promtail_positions:/tmp
+      # Relatif au répertoire de ce compose (dossier infra/). Sur Dokploy, si le fichier disparaît
+      # entre déploiements, uploadez une copie via Advanced → Mounts vers ../files/promtail-config.yml
+      # et remplacez la ligne ci-dessous par ce chemin hôte.
+      - ./promtail-config.yml:/etc/promtail/config.yml:ro
+    command: -config.file=/etc/promtail/config.yml
+    networks:
+      - dokploy-network
+
+  grafana:
+    image: grafana/grafana:10.2.3
+    restart: unless-stopped
+    depends_on:
+      - loki
+    expose:
+      - "3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: ${GRAFANA_ADMIN_USER:-admin}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD:?set GRAFANA_ADMIN_PASSWORD in Dokploy Environment}
+      GF_SERVER_ROOT_URL: ${GRAFANA_ROOT_URL:-http://localhost:3000}
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    volumes:
+      - grafana_data:/var/lib/grafana
+    networks:
+      - dokploy-network
+
+volumes:
+  loki_data: {}
+  grafana_data: {}
+  promtail_positions: {}
+
+networks:
+  dokploy-network:
+    external: true
